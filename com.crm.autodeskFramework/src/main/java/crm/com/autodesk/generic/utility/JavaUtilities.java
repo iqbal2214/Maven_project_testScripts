@@ -24,7 +24,7 @@ public int getRandomNum(){
  */
 public String getSystemDateAndTime() {
 	Date date=new Date();
-	return date.toString();
+	return date.toString().replace(" ", "_").replace(":", "_");
 }
 
 /**

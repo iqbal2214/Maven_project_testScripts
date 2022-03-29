@@ -3,19 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="crm.com.autodesk.Contact.CreateContactSelectingOrganizationTest">
+      <class name="practice.PracticeForExtentReport">
         <methods>
           <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="createContactSelectingOrg"/>
           <include name="afterClass"/>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
           <include name="afterMethod"/>
+          <include name="createLead"/>
+          <include name="createProduct"/>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- crm.com.autodesk.Contact.CreateContactSelectingOrganizationTest -->
+      </class> <!-- practice.PracticeForExtentReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

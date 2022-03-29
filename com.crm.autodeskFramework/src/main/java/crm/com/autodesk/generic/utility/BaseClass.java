@@ -20,7 +20,8 @@ import com.crm.ObjectRepository.LoginPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-@Listeners(crm.com.autodesk.generic.utility.ImplimentationClassForITestListeners.class)
+//@Listeners(crm.com.autodesk.generic.utility.ImplimentationClassForITestListeners.class)
+@Listeners(crm.com.autodesk.generic.utility.ExtentReport.class)
 public class BaseClass {
 	
 	public WebDriver driver=null;
