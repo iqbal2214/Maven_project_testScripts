@@ -21,6 +21,12 @@ public class ExtentReport implements ITestListener{
 	}
 
 	@Override
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
 	public void onTestSuccess(ITestResult result) {
 		//step 4: log the pass method
 		test.log(Status.PASS,result.getMethod().getMethodName());
